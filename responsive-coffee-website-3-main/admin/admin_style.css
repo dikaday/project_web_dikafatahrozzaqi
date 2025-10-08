@@ -1,0 +1,86 @@
+/* admin/admin_style.css */
+body { 
+    background-color: hsl(166, 56%, 18%); 
+    font-family: var(--body-font);
+}
+.admin-container { 
+    padding: 2rem; 
+    max-width: 1200px; 
+    margin: auto; 
+}
+.admin-header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; padding: 1rem 2rem; 
+    background: var(--dark-color); 
+    color: white; 
+}
+.admin-header h1 { 
+    font-family: var(--second-font); 
+    font-size: var(--h2-font-size); 
+    display: flex; 
+    align-items: center; 
+    gap: 0.5rem; 
+}
+.admin-nav a { 
+    color: white; 
+    margin-left: 1.5rem; 
+    text-decoration: none; 
+    font-weight: var(--font-medium); 
+}
+.admin-nav a:hover { 
+    color: var(--first-color); 
+}
+.card { 
+    background: white; 
+    padding: 2rem; 
+    border-radius: 8px; 
+    margin-top: 1rem; 
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05); 
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 1.5rem; 
+}
+th, td { 
+    padding: 0.75rem 1rem; 
+    border: 1px solid #ddd; 
+    text-align: left; 
+}
+th { 
+    background-color: var(--first-color-alt); 
+    color: var(--white-color);
+}
+.action-btn { 
+    padding: 0.4rem 0.8rem; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 4px; 
+    margin-right: 5px; 
+    font-size: var(--small-font-size); 
+}
+.edit-btn { 
+    background-color: #3498db; 
+}
+.delete-btn { 
+    background-color: #e74c3c; 
+}
+.view-btn { 
+    background-color: #2ecc71; 
+}
+.form-group { 
+    margin-bottom: 1rem; 
+}
+.form-group label { 
+    display: block; 
+    margin-bottom: 0.5rem; 
+    font-weight: var(--font-semi-bold); 
+}
+.form-group input, .form-group select { 
+    width: 100%; 
+    padding: 0.6rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    font-size: var(--normal-font-size); 
+}
